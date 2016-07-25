@@ -22,7 +22,7 @@ Data
 -----
 Data accepted is in the tsv format where first component is the context and second is the reply
 
-TSV format Ubuntu Data can be found [here](https://drive.google.com/file/d/0BwPa9lrosQKdSTZxZ0tydUFGWE0/view)
+TSV format Ubuntu Dialog Data can be found [here](https://drive.google.com/file/d/0BwPa9lrosQKdSTZxZ0tydUFGWE0/view)
  
 example :-
 1. What are you doing ? \t Writing seq2seq model . 
