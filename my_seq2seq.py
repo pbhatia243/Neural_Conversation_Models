@@ -621,7 +621,6 @@ def beam_attention_decoder(decoder_inputs, initial_state, attention_states, cell
           ds.append(array_ops.reshape(d, [-1, attn_size]))
       return ds
 
-
     outputs = []
     prev = None
     batch_attn_size = array_ops.pack([batch_size, attn_size])
@@ -629,12 +628,14 @@ def beam_attention_decoder(decoder_inputs, initial_state, attention_states, cell
              for _ in xrange(num_heads)]
     for a in attns:  # Ensure the second shape of attention vectors is set.
       a.set_shape([None, attn_size])
+
     if initial_state_attention:
        attns = []
        attns.append(attention(initial_state))
        tmp = tf.reshape(tf.concat(0, attns), [-1, attn_size])
        attns = []
        attns.append(tmp)
+
     log_beam_probs, beam_path, beam_symbols = [],[],[]
     for i, inp in enumerate(decoder_inputs):
 
