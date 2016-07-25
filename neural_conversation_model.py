@@ -6,7 +6,7 @@ Running this program without --decode will  tokenize it in a very basic way,
 and then start training a model saving checkpoints to --train_dir.
 
 Running with --decode starts an interactive loop so you can see how
-the current checkpoint translates English sentences into French.
+the current checkpoint performs
 
 See the following papers for more information on neural translation models.
  * http://arxiv.org/abs/1409.3215

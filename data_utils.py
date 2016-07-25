@@ -13,7 +13,6 @@
 # limitations under the License.
 # ==============================================================================
 
-"""Utilities for downloading data from WMT, tokenizing, vocabularies."""
 
 import gzip
 import os
