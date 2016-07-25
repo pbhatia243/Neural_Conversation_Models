@@ -1,8 +1,8 @@
 # Neural_Conversation_Models
 =================================
-This implementation contains:
+This implementation contains an extension of seq2seq tutorial for conversation models in Tensorflow:
 
-1. Current implementation is an extension of seq2seq tutorial for conversation models
+1. Option to use Beam Search and Beam Size for decoding
     
 2. Currently, it supports
     - Simple seq2seq  models
