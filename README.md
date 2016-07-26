@@ -43,3 +43,7 @@ Todo
 -----
 1. Add other state of art neural models. 
 2. Adding layer normalization( in progress )
+
+
+## Contact
+Parminder Bhatia, parminder@yikyakapp.com
