@@ -44,6 +44,7 @@ Todo
 1. Add other state of art neural models. 
 2. Adding layer normalization( in progress )
 
+https://github.com/pbhatia243/tf-layer-norm
 
 ## Contact
 Parminder Bhatia, parminder@yikyakapp.com
