@@ -47,4 +47,4 @@ Todo
 https://github.com/pbhatia243/tf-layer-norm
 
 ## Contact
-Parminder Bhatia, parminder@yikyakapp.com
+Parminder Bhatia, parminder.bhatia243@gmail.com
