@@ -10,6 +10,10 @@ This implementation contains an extension of seq2seq tutorial for conversation m
     
 3. To get better results use beam search during decoding / inference 
 
+Examples of basic model can be found in this paper.
+
+https://arxiv.org/abs/1702.05512
+
 
 Prerequisites
 -------------
